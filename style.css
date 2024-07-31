@@ -1,0 +1,89 @@
+body{
+    color: #112D4E;
+    text-align: center;
+    margin: 0;
+    font-family: "Merriweather", serif;
+}
+.top-container{
+    background-image: url("images/image1.jpg");
+    position: relative;
+    padding-top: 100px;
+}
+h1{
+    font-family: "Playwrite DK Loopet", cursive;
+    font-size: 4rem ;
+    color: #a3c3ff;
+}
+h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+    color: #a3c3ff;
+}
+.span{
+    text-decoration: underline;
+}
+.middle-container{
+    margin-top: 100px;
+}
+.profile-img{
+    border-radius: 50%;
+    border: none;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+p{
+    line-height: 2;
+}
+hr{
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+
+}
+.parent{
+    display: grid;
+    width: 50%;
+    margin: 100px auto 0 auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2,1fr);
+    text-align: left;
+    row-gap: 2rem;
+
+}
+h3{
+    font-family: "Montserrat", sans-serif;
+    color: #a3c3ff;
+
+}
+.par3{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.btn{
+        background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,245,255,1) 0%, rgba(172,224,255,1) 0%);
+        border-radius: 8px;
+        font-family: "Montserrat", sans-serif;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        margin-top: 20px;
+}
+.bottom-container{
+    background-color: #3F72AF;
+    padding: 50px 0 20px;
+    margin-top: 50px;
+
+
+}
+a {
+    color: #a3c3ff;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
